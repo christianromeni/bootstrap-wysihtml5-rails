@@ -9500,6 +9500,7 @@ wysihtml5.views.Textarea = wysihtml5.views.View.extend(
     /**
      * Prepare html parser logic
      *  - Observes for paste and drop
+     * WTF comment for commit.
      */
     _initParser: function() {
       this.observe("paste:composer", function() {
